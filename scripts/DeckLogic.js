@@ -52,6 +52,8 @@ var deck = new Array();
         deck[j] = temp
     }
 
+    return deck;
+
 }
 
  function renderDeck(cards, DeckToRender) {
@@ -81,7 +83,7 @@ var deck = new Array();
 
  function load() {
     deck = populateDeck();
-    shuffle(52);
+    deck = shuffle(52);
     renderDeck(52, deck);
 
 }
@@ -93,7 +95,6 @@ var deck = new Array();
     shuffle(cards);
     var sortedDeck = sortDeck(cards);
     renderDeck(cards, sortedDeck);
-    // renderSortedDeck(cards);
 }
 
  function sortDeck(cards) {

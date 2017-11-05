@@ -1,8 +1,278 @@
+	var Deck = [{
+    "Value": "A",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 12
+}, {
+    "Value": "2",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 2
+}, {
+    "Value": "3",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 3
+}, {
+    "Value": "4",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 4
+}, {
+    "Value": "5",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 5
+}, {
+    "Value": "6",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 6
+}, {
+    "Value": "7",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 7
+}, {
+    "Value": "8",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 8
+}, {
+    "Value": "9",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 9
+}, {
+    "Value": "10",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 10
+}, {
+    "Value": "J",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 11
+}, {
+    "Value": "Q",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 12
+}, {
+    "Value": "K",
+    "Suit": "9830",
+    "weight": 4,
+    "order": 13
+}, {
+    "Value": "A",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 12
+}, {
+    "Value": "2",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 2
+}, {
+    "Value": "3",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 3
+}, {
+    "Value": "4",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 4
+}, {
+    "Value": "5",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 5
+}, {
+    "Value": "6",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 6
+}, {
+    "Value": "7",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 7
+}, {
+    "Value": "8",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 8
+}, {
+    "Value": "9",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 9
+}, {
+    "Value": "10",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 10
+}, {
+    "Value": "J",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 11
+}, {
+    "Value": "Q",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 12
+}, {
+    "Value": "K",
+    "Suit": "9829",
+    "weight": 3,
+    "order": 13
+}, {
+    "Value": "A",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 12
+}, {
+    "Value": "2",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 2
+}, {
+    "Value": "3",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 3
+}, {
+    "Value": "4",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 4
+}, {
+    "Value": "5",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 5
+}, {
+    "Value": "6",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 6
+}, {
+    "Value": "7",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 7
+}, {
+    "Value": "8",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 8
+}, {
+    "Value": "9",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 9
+}, {
+    "Value": "10",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 10
+}, {
+    "Value": "J",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 11
+}, {
+    "Value": "Q",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 12
+}, {
+    "Value": "K",
+    "Suit": "9824",
+    "weight": 2,
+    "order": 13
+}, {
+    "Value": "A",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 12
+}, {
+    "Value": "2",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 2
+}, {
+    "Value": "3",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 3
+}, {
+    "Value": "4",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 4
+}, {
+    "Value": "5",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 5
+}, {
+    "Value": "6",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 6
+}, {
+    "Value": "7",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 7
+}, {
+    "Value": "8",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 8
+}, {
+    "Value": "9",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 9
+}, {
+    "Value": "10",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 10
+}, {
+    "Value": "J",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 11
+}, {
+    "Value": "Q",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 12
+}, {
+    "Value": "K",
+    "Suit": "9827",
+    "weight": 1,
+    "order": 13
+}]
+
 QUnit.test( "Example test", function( assert ) {
   assert.equal( 1, "1", "String '1' and number 1 have the same value" );
 });
 
 QUnit.test( "Test function populateDeck()", function( assert ) {
   assert.notEqual( populateDeck(), null, "The Deck is not null");
+  assert.notEqual( populateDeck(), Deck, "The Deck is populated with the correct data");
 });
+
+
+QUnit.test( "shuffle()", function( assert ) {
+  assert.notEqual( populateDeck(), null, "The Deck is not null");
+  assert.notEqual( shuffle(), Deck, "The shuffled deck is not equal to the original deck" );
+});
+
 
