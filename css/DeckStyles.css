@@ -1,0 +1,106 @@
+.cardstack, .hand {
+  height: 9.6px;
+}
+
+.buttons{
+	padding: 10px;
+}
+
+.deck{
+	height: 600px;
+	width: 700px;
+}
+.suite
+{
+  height: 8.85em;
+  width: 6.4em;
+  background: #fff url('images/cardSprite.png') no-repeat;
+  background-size: 1300% 400%;
+ 
+  font-family: 'Times', serif;
+  text-align: left;
+  line-height: 1em;
+  padding-top: .25em;
+  padding-left: .1em;
+  letter-spacing: -.2em;
+}
+.card
+{
+ border: 1px solid #695d39;	
+ -webkit-border-radius:  .5em;
+ -moz-border-radius:     .5em;
+ border-radius:          .5em;
+ -webkit-box-shadow:   0 0 .5em -.15em #000;
+ -moz-box-shadow:      0 0 .5em -.15em #000;
+ box-shadow:           0 0 .5em -.15em #000;
+ float: left;
+ overflow: hidden;
+ /*allows overlapping*/
+ margin-right:-4em;  
+}
+
+/* SUITS */
+.C { background-position-y: 0;       color: #000; }
+.D { background-position-y: -9.1em; color: #890000; }
+.S { background-position-y: -18.2em; color: #000; }
+.H { background-position-y: -27.3em;    color: #890000; }
+
+
+/* For FF compatibility, the combined rank-suit classes */
+.rankA9827 {color: #000; background-position: 0 0; }
+.rankA9830 {color: #890000; background-position: 0 -9.1em; }
+.rankA9824 {color: #000; background-position: 0 -18.2em; }
+.rankA9829 {color: #890000; background-position: 0 -27.3em; }
+.rank29827 {color: #000; background-position: -6.5em 0; }
+.rank29830 {color: #890000; background-position: -6.5em -9.1em; }
+.rank29824 {color: #000; background-position: -6.5em -18.2em; }
+.rank29829 {color: #890000; background-position: -6.5em -27.3em; }
+.rank39827 {color: #000; background-position: -13em 0; }
+.rank39830 {color: #890000; background-position: -13em -9.1em; }
+.rank39824 {color: #000; background-position: -13em -18.2em; }
+.rank39829 {color: #890000; background-position: -13em -27.3em; }
+.rank49827 {color: #000; background-position: -19.5em 0; }
+.rank49830 {color: #890000; background-position: -19.5em -9.1em; }
+.rank49824 {color: #000; background-position: -19.5em -18.2em; }
+.rank49829 {color: #890000; background-position: -19.5em -27.3em; }
+.rank59827 {color: #000; background-position: -26em 0; }
+.rank59830 {color: #890000; background-position: -26em -9.1em; }
+.rank59824 {color: #000; background-position: -26em -18.2em; }
+.rank59829 {color: #890000; background-position: -26em -27.3em; }
+.rank69827 {color: #000; background-position: -32.5em 0; }
+.rank69830 {color: #890000; background-position: -32.5em -9.1em; }
+.rank69824 {color: #000; background-position: -32.5em -18.2em; }
+.rank69829 {color: #890000; background-position: -32.5em -27.3em; }
+.rank79827 {color: #000; background-position: -38.5em 0; }
+.rank79830 {color: #890000; background-position: -38.5em -9.1em; }
+.rank79824 {color: #000; background-position: -38.5em -18.2em; }
+.rank79829 {color: #890000; background-position: -38.5em -27.3em; }
+.rank89827 {color: #000; background-position: -45.2em 0; }
+.rank89830 {color: #890000; background-position: -45.2em -9.1em; }
+.rank89824 {color: #000; background-position: -45.2em -18.2em; }
+.rank89829 {color: #890000; background-position: -45.2em -27.3em; }
+.rank99827 {color: #000; background-position: -51em 0; }
+.rank99830 {color: #890000; background-position: -51em -9.1em; }
+.rank99824 {color: #000; background-position: -51em -18.2em; }
+.rank99829 {color: #890000; background-position: -51em -27.3em; }
+.rank109827 {color: #000; background-position: -57.5em 0; }
+.rank109830 {color: #890000; background-position: -57.5em -9.1em; }
+.rank109824 {color: #000; background-position: -57.5em -18.2em; }
+.rank109829 {color: #890000; background-position: -57.5em -27.3em; }
+.rankJ9827 {color: #000; background-position: -64em 0; }
+.rankJ9830 {color: #890000; background-position: -64em -9.1em; }
+.rankJ9824 {color: #000; background-position: -64em -18em; }
+.rankJ9829 {color: #890000; background-position: -64em -27.3em; }
+.rankQ9827 {color: #000; background-position: -70.5em 0; }
+.rankQ9830 {color: #890000; background-position: -70.5em -9em; }
+.rankQ9824 {color: #000; background-position: -70.5em -18em; }
+.rankQ9829 {color: #890000; background-position: -70.5em -27em; }
+.rankK9827 {color: #000; background-position: -77em 0;  }
+.rankK9830 {color: #890000; background-position: -77em -9em; }
+.rankK9824 {color: #000; background-position: -77em -18em; }
+.rankK9829 {color: #890000; background-position: -77em -27em; }
+
+.card .value{
+	font-size:15pt;
+	font-family: sans-serif;
+}
