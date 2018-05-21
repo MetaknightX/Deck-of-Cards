@@ -61,7 +61,7 @@ var deck = new Array();
         document.getElementById("deck").innerHTML = "";
     }
 
-    for (var i = 0; i < cards - 1; i++) {
+    for (var i = 0; i < cards; i++) {
         var card = document.createElement("div");
         var value = document.createElement("div");
         var suite = document.createElement("div");
@@ -99,7 +99,7 @@ var deck = new Array();
 
  function sortDeck(cards) {
     var cardsToSort = new Array();
-    cardsToSort = deck.slice(0, cards - 1);
+    cardsToSort = deck.slice(0, cards);
     // sort by suit
     cardsToSort.sort(
         function(a, b) {
